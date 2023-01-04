@@ -1,0 +1,211 @@
+body {
+  font-family: "Lora", serif;
+  background: #fbfbfb;
+}
+
+.font {
+  font-family: "Lora", serif;
+}
+.fonto {
+  font-family: "Open Sans", sans-serif;
+}
+
+.home-p {
+  width: 650px;
+  margin: 0 auto;
+}
+.hero-section {
+  padding-top: 35px;
+  padding-bottom: 24px;
+}
+.hero-section .title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 1.3;
+}
+.hero-section .title .highlight {
+  color: #e03b07;
+  text-decoration: underline;
+}
+.hero-section .img {
+  margin-top: 20px;
+}
+
+/* Topic Description Section */
+.topic-desc-sec {
+  margin-bottom: 30px;
+}
+.topic-desc-sec .topic-title {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  text-align: center;
+  font-weight: 300;
+  font-size: 36px;
+  padding: 8px 20px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.topic-desc-sec .text {
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+.topic-desc-sec .text:last-child {
+  margin-bottom: 0px;
+}
+
+/* Paragraph Section */
+.paragraph-section {
+  margin-bottom: 30px;
+}
+.paragraph-section .title {
+  font-family: "Lora", serif;
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 18px;
+  padding: 0px 30px;
+  line-height: 1.4;
+}
+.paragraph-section .title .link {
+  color: #e03b07;
+  text-decoration: underline;
+}
+.paragraph-section .text {
+  font-family: "Lora", serif;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+.paragraph-section .text.margin-left {
+  margin-left: 40px;
+}
+.paragraph-section .text:last-child {
+  margin-bottom: 0px;
+}
+.paragraph-section .password-list-image {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+/* Letter Container */
+.letter-container {
+  background: #ffffff;
+  border: 1px solid #f5dbba;
+  padding: 40px;
+  margin-bottom: 32px;
+}
+.letter-container .head-blk {
+  margin-bottom: 22px;
+}
+.letter-container .head-blk .txt {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 4px;
+}
+.letter-container .text {
+  font-family: "Lora", serif;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.letter-container .text:last-child {
+  margin-bottom: 0px;
+}
+.letter-container .image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.letter-container .title {
+  font-family: "Lora", serif;
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 14px;
+  padding: 0px 68px;
+  line-height: 1.4;
+}
+.letter-container .list {
+  display: flex;
+  flex-direction: column;
+}
+.letter-container .list .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.letter-container .list .list-item .li {
+  font-family: "Lora", serif;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
+}
+.letter-container .list .list-item .dot {
+  height: 6px;
+  width: 6px;
+  min-width: 6px;
+  margin-right: 10px;
+  border-radius: 30px;
+  background: #000;
+}
+.letter-container .border-title {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  text-align: center;
+  font-weight: 300;
+  font-size: 28px;
+  padding: 12px 20px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+}
+.video-container {
+  margin-top: 30px;
+  width: 100%;
+}
+.video-container .label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* Video Player */
+.video-player {
+  width: 100%;
+  height: 340px;
+  outline: none;
+}
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.grid-row .video-player {
+  height: 260px;
+}
